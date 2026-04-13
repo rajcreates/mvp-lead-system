@@ -1,0 +1,45 @@
+name: MVP Lead Monitor
+
+on:
+  schedule:
+    # Runs every 2 hours (GitHub Actions uses UTC)
+    - cron: '0 */2 * * *'
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Check out repo (includes seen_ids.json from last run) ──
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Set up Python ──────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # ── 3. Install dependencies ───────────────────────────────────
+      - name: Install dependencies
+        run: pip install requests
+
+      # ── 4. Run the monitor ────────────────────────────────────────
+      - name: Run monitor
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python monitor.py
+
+      # ── 5. Save seen_ids.json and leads.csv back to repo ─────────
+      #    This ensures next run doesn't re-alert on already-seen leads
+      - name: Save state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen_ids.json leads.csv outreach_queue.csv 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update leads state [skip ci]"
+          git push
