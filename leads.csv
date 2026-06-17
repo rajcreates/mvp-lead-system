@@ -6291,3 +6291,18 @@ PRs welcome."
 2026-06-17 02:44,TechCrunch Startups,outbound_funded,"Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/,funding_news,"Respond.io, one of Malaysia's startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat."
 2026-06-17 02:44,TechCrunch Startups,outbound_funded,Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech,https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/,funding_news,Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.
 2026-06-17 02:44,TechCrunch Startups,outbound_funded,Orbio raises $21 million to automate hiring and onboarding for frontline workers,https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/,funding_news,Orbio announces $21 million Series A in round led by Dawn Capital.
+2026-06-17 08:53,Hacker News,inbound,"BoronEngine, (c++ vulkan dx11) gameengine",https://news.ycombinator.com/item?id=48566211,looking for developer,"I&#x27;ve been developing my C++ game engine, Boron Engine, for about 10 months.
+Current features:
+Vulkan and DirectX 11 rendering
+Shadow mapping
+Texture system
+Mesh loading
+Project save&#x2F;load system
+Customizable editor themes
+Controller support with rumble
+I&#x27;m currently looking for feedbac"
+2026-06-17 08:53,Hacker News,inbound,Not everything needs to be groundbreaking,https://pipsthoughts.substack.com/p/not-everything-needs-to-be-groundbreaking,need CTO,
+2026-06-17 08:53,TechCrunch,outbound_funded,Probably raises $9M to build a more reliable kind of AI,https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/,funding_news,"Probably wants to prevent hallucinations and factual errors from reaching users, and achieve accuracy on par with deterministic systems."
+2026-06-17 08:53,TechCrunch Startups,outbound_funded,"Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/,funding_news,"Respond.io, one of Malaysia's startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat."
+2026-06-17 08:53,TechCrunch Startups,outbound_funded,Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech,https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/,funding_news,Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.
+2026-06-17 08:53,TechCrunch Startups,outbound_funded,Orbio raises $21 million to automate hiring and onboarding for frontline workers,https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/,funding_news,Orbio announces $21 million Series A in round led by Dawn Capital.
