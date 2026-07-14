@@ -8304,3 +8304,11 @@ How can we best use AI tools safely - where the workflow often runs local system
 So since Gemini was getting sunsetted, I explored having my own.<p>As I am a cheap rat, this weekend I built Themis, that works with my Codex&#"
 2026-07-14 07:46,Hacker News,inbound,"Show HN: ZenStack – access control at the ORM layer, built for coding agents",https://zenstack.framer.website/,how much to build,"Hi HN, I&#x27;m Jiasheng, co-creator of ZenStack.<p>Access control usually ends up scattered across app code instead of living with the data model — and that&#x27;s riskier when the code is written by an agent, since it&#x27;s easy to ship a query with a missing or incomplete authorization check. Ze"
 2026-07-14 07:46,TechCrunch,outbound_funded,"Video-generation startup PixVerse raises $439M, valuation soars past $2B",https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/,funding_news,"With the cash, the company aims to expand its world model offering and reach customers across geographies."
+2026-07-14 09:46,DEV Community,inbound,Why Early MVPs Fail Before Launch,https://dev.to/kavitasystems/why-early-mvps-fail-before-launch-11ag,build an MVP,"<p><strong>Most MVPs do not fail because the first version is too small.</strong></p>
+
+<p><em>They fail because the first version is not focused enough.</em></p>
+
+<p>A real MVP is not just a reduced version of a full product. It is a focused first version built to test the core product hypothesis wi"
+2026-07-14 09:46,Hacker News,inbound,"I built a functional software platform, but zero support. Here is my tool",https://www.bountyclaimer.com/,build a platform,
+2026-07-14 09:46,Hacker News,inbound,Embracing TanStack Start for full-stack development on Cloudflare – PageZERO v2,https://pagezero.dev/blog/tanstack-start-cloudflare-full-stack,startup development,
+2026-07-14 09:47,TechCrunch,outbound_funded,"Video-generation startup PixVerse raises $439M, valuation soars past $2B",https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/,funding_news,"With the cash, the company aims to expand its world model offering and reach customers across geographies."
